@@ -1,0 +1,60 @@
+README
+            Christopher Lirette     clirett
+
+
+My first thought for this project was to do Lichtenberg figures, so I began
+experimenting with some Brownian recursive algorithms online. This led me
+to realize that my math background needed some refreshing, so without
+consulting another algorithm, I tried to make a recursive square by itself.
+
+The thing that most threw me off was dealing with scale and canvas size--
+changing one or the other severely throws off your balance, especially if
+you were expecting something that following the rules of either Rene Des-
+Cartes or Tim Berners Lee. After I figured that out, I created, submission3:
+
+prime-hole-with-rough-edges
+
+This work uses arbitrarily chosen prime digits from 0 to 1000 to alternate
+colors as the code recursively goes until zero. It creates a weird image
+that looks two-toned or two-textured or at least holographic. It's probably
+because I am colorblind. While it is recursive, I didn't find it to be enough
+for my project.
+
+I began studying the algorithms included on Algorithms Fourth edition,
+focuses on Rose.java and AnimatedHTrees.java. These both proved useful
+excercizes as I emulated them, as I abridged them. The best idea I had here
+was to write a program that could generate different flower images, trying
+first asphodel (that greeny flower, says William Carlos Williams), rose,
+then orchid. I hoped to do more, because I just began to see the possibil-
+ities as the code broke down to be able to manipulate the shapes. The best
+that came out are variations on orchid, adding strange spikes to it. And so
+you have submission2:
+
+Flower in Flower
+
+The real gem of programming I have here is my baroque Koch triangle. After
+scouring mathworld.Wolfram.com for math info (I am in the humanities, after 
+all), I finally devised a way to calculate angles off of a non vertical or 
+horizontal line. This was not as easy, and my biggest challenge was learning 
+to pivot at a certain point. My first instinct was to use the wonderful 
+world of angular geometry, but while I could get a traingle to do such a 
+thing recursively, I could not do it for the Koch curve. So I used both start
+and end points instead of start points, length, and projected angle. The
+Koch curve is modular and can be used outside of my main method for any
+shape thrown into it. This is my submission-1:
+
+INFINITE PERIMETER WITH MIND OF WINTER
+
+There are other images saved in the submission-1 directory: these show 
+different chaoses possible within my program be changing some parameters.
+
+The fourth and fifth "submissions" is a crazy KochCurve I made during troubleshooting:
+
+Koch Cave
+Ray Koch
+
+These aren't well commented, but they are bizarre. 
+
+To be clear, I want my primary submission to be KochTriangle.java in submission-1.
+
+
