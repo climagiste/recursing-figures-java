@@ -1,6 +1,26 @@
-README
-            Christopher Lirette     clirett
+       #                                  #                         
+       #  $                      $        #                         
+   ##  #     # ##  #   ## #  ##      ##  ###  ###                   
+ #   # #  #  ##  ## # #  #  #  # #  #     #  #####                  
+ #     #  #  #   #  # #  #  #  # #   ##   #  #                      
+  ###   #  # #   #  #  ## #  ###  #    #  #   ###                  
+                               #     ##                              
+                             ##                                       
+                                                                         
+RECURSING FIGURES JAVA
 
+This set of java classes draw things recursively, done so for a school
+project. Since it was a nightmarish battle against math to figure out how
+to do a Koch triangle with my creative writing MFA and semiotics/cultural
+studies PhD studies, I thought I'd share the nightmare with the internet
+in the spirit of OPEN ACCESS BEGINNER'S PROGRAMMING/ANARCHY THRU STDDRAW.
+
+Speaking of which, the STDDraw.class is from Algorithms, fourth edition, a
+textbook and website from Robert Sedgewick and Kevin Wayne and Princeton
+University. You can get the code and more at http://algs4.cs.princeton.edu/home/. I'm removing the .java file there so that you have to go get it.
+
+
+Here's the RATIONALE I gave when I turned it in:
 
 My first thought for this project was to do Lichtenberg figures, so I began
 experimenting with some Brownian recursive algorithms online. This led me
